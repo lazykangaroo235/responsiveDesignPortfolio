@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 7%;
+}
+
+div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .original {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.websiteLink {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.elevatorImages {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* .images {
+  padding: 10px;
+} */
+
+img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

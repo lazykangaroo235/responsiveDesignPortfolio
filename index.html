@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="coolStuff.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- href should be name of ur css file name-->
+    <link rel="stylesheet" href="coolStuff.css">
+</head>
+
+<body>
+    <h1>Website Responsive Redesign</h1>
+    <div>
+        For this project, I chose the rework the website for Sam's Place, a small local restaurant in Blake Lee, Ohio.
+        It is a restaurant I have always wanted to try and one of the few authentic cuisines of the midwest.
+        I focused during this project on creating a solid plan before redesign through:
+        <ol>
+            <li>Identifying Usability Problems</li>
+            <li>Creating Visual Redesign</li>
+            <li>Creating Responsive Redesign</li>
+        </ol>
+
+    </div>
+    <div>
+        <br>
+        <h1>Identifying Usability Problems</h1>
+    </div>
+    <div class="original">
+        <br>
+        <h1>Original Website</h1>
+        <a id="websiteLink" href=”http://www.samsplaceblakeslee.com/” style="color: #5A5A5A">
+            Website Link
+        </a>
+    </div>
+</body>
+<div class="elevatorImages">
+    <div class="images">
+        <img src="Images/samsplaceHome.jpg" alt="Home Page" class="center">
+    </div>
+</div>
+<div>
+
+    <body>
+        <h2>
+            <br>
+            Website Usability Issues
+        </h2>
+        <p>
+        <ul>
+            <li>The webpage is hard to use. It is mostly an informational website as there is no online ordering system.
+                The only interactive feature they have is a way to contact the restaurant and create reservations. As I
+                do not have much information on the actual restaurant workings, I will keep the same overall goal of the
+                website: to show opening times, location, and allow for contact/reservations.</li>
+            <li>In terms of efficiency, once the user knows what is happening, they is no increased efficiency they can
+                gain. They still must fill out the form with their name, email, phone number, message and a CAPTCHA
+                regardless of how much they frequent this site. The only efficiency they may gain is that knowing the
+                form is for reservations, which is not obvious at first glance.
+            </li>
+            <li>In terms of memorability, if a user comes back to the website after a while, they will most likely
+                remember that to create a reservation, they have to use the form.
+            </li>
+            <li>In terms of errors, with the contact us form, erroring within the form is hard to understand. If you
+                input the CAPTCHA wrong or write an invalid email, it simply creates a new CAPTCHA and tells you to fill
+                it out or just tells you to input an email. It does not mention that the email is invalid or the CAPTCHA
+                was typed incorrectly. Despite having the contact us form on every page of the website, if you switch
+                tabs, all progress is lost. The message box can be resized, but there is really no need and it creates
+                formatting issues across each page the more it is resized.
+            </li>
+            <li>In terms of satisfaction, it does not have a pretty color scheme or texture. Additionally, the highly
+                constrasting colors makes the text hard to read in dark settings or to those with poor vision.
+            </li>
+            <li>There is little responsiveness and there is no change in formatting for phones, tablets, or any other
+                dimensions.</li>
+        </ul>
+
+        </p>
+        <br>
+        <h2>Website Accessbility Issues</h2>
+        <p>
+            I used the website wave.webaim.org determine this websites' accessbility. Overall the website found 42
+            points of note. Many of the errors are just bad HTML usage, but there are some key points that are noted
+            below:
+        <ul>
+            <li>There are many points where the constrast between the text and background make it hard to read.</li>
+            <li>There is little page organization and no headers found, leading to lackluster organization and no
+                logical flow between bunches of text.
+            </li>
+            <li>The photos do not contain captions, which the website deemed as problematic; however, I would argue many
+                of the photos do not need captions and have obvious meanings.
+        </ul>
+
+        </p>
+        <h1> Creating Visual Resdesign</h1>
+        <P>
+            I created some low fidelity wireframes with annotations for the reasons behind each change for 3 different
+            sizes: tablets, phones, laptops.
+        </P>
+        <br>
+        <div class="elevatorImages">
+            Laptop
+            <br>
+            <div class="images">
+                <img src="Images/Desktop.png" alt="Home Page" class="center">
+            </div>
+            <br>
+            Phone
+            <br>
+            <br>
+            <div class="images">
+                <img src="Images/Phone.png" alt="Home Page" class="center">
+            </div>
+            <br>
+            Tablet
+            <br>
+            <br>
+            <div class="images">
+                <img src="Images/Tablet.png" alt="Home Page" class="center">
+            </div>
+        </div>
+        <P>
+            I created a visual design style guide for my hifi protype which explains all the intended functionality of
+            the small widgets within my project.
+        </P>
+        <div class="elevatorImages">
+            Visual Design Style Guide
+            <br>
+            <div class="images">
+                <img src="Images/Visual Design Style Guide (1).jpg" alt="Home Page" class="center">
+            </div>
+            <br>
+        </div>
+        <P>
+            I created some high fidelity prototyping using figma with annotations for how to implement it using css and
+            flex.
+        </P>
+        <br>
+        <div class="elevatorImages">
+            Laptop
+            <br>
+            <div class="images">
+                <img src="Images/ComputerFigma.png" alt="Home Page" class="center">
+            </div>
+            <br>
+            Phone
+            <br>
+            <br>
+            <div class="images">
+                <img src="Images/PhoneFIgma.png" alt="Home Page" class="center">
+            </div>
+            <br>
+            Tablet
+            <br>
+            <br>
+            <div class="images">
+                <img src="Images/TabletFigma.png" alt="Home Page" class="center">
+            </div>
+        </div>
+        <h1>Creative Responsive Redesign</h1>
+        <p>
+            Without further ado, here is my redesign based on all of these factors.
+            <a id="websiteLink" href=”http://www.samsplaceblakeslee.com/” style="color: #5A5A5A">
+                Website Link
+            </a>
+        </p>
+        <div class="elevatorImages">
+            <br>
+            <div class="images">
+                <img src="Images/finalwebsite.jpg" alt="Home Page" class="center">
+            </div>
+        </div>
+        Sources
+        <ul>
+            https://fonts.google.com/specimen/Lora?vfquery=lora#styles
+            <br>
+            https://github.com/marc-hinton/TheBestHeader/blob/main/index.html
+            <br>
+            https://mdbootstrap.com/docs/standard/navigation/headers/#
+            <br>
+            https://www.gmondini.com/success-stories/gmondini-confectionery-market
+            <br>
+            https://mdbootstrap.com/docs/standard/navigation/headers/#
+            <br>
+            https://getbootstrap.com/docs/5.1/components/navbar/
+            <br>
+            https://www.gmondini.com/success-stories/gmondini-confectionery-market
+            <br>
+            https://www.figma.com/community/file/1041612950980412711
+            <br>
+            https://www.figma.com/file/ve6E4DchGs48lCprgchHU7/Social-Icons-(Community)?node-id=17%3A23
+        </ul>
+    </body>
+</div>
+
+</html>
